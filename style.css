@@ -71,6 +71,7 @@ body{
 }
 
 
+
 .section{
     width: 2240px;
     height: 467px;
@@ -117,9 +118,8 @@ body{
     align-items: flex-start;
     gap: 39px;
 }
-.two{
-    /* border: 1px solid red; */
-}.three{
+
+.three{
     /* border: 1px solid red; */
     display: flex;
     width: 398px;
