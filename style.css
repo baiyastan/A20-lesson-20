@@ -1,11 +1,321 @@
-.box {
-    width: 100px;
-    height: 100px;
-    border: 1px solid black;
+body{
+    background-color: #fff;
+}
+.header{
+    width: 1919px;
+    height: 204px;
+    display: inline-flex;
+    padding: 69px 162px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* border: 1px solid red; */
+}
+.miniheader{
+    height: 66px;
+    display: flex;
+    width: 1595.791px;
+    align-items: center;
+}
+.organic{
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.organic-shop{
+    margin-left: 150px;
+    width: 564px;
+    height: 23px;
+    display: flex;
+    color: #274C5B;
+
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    justify-content: space-between;
+
+}
+.find{
+    width: 376px;
+    height: 66px;
+    border-radius: 36px;
+    background: #FAFAFA;
+    margin-left: 130px;
+    display: flex;
+    justify-content: flex-end;
+}
+.cart{
+    width: 159px;
+    height: 66px;
+    flex-shrink: 0;
+    border-radius: 33px;
+    border: 1px solid #E0E0E0;
+    margin-left: 18px;
+    display: flex;
+    text-align: center;
+    gap: 12px;
+}
+.cart-count{
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 20px;
 }
 
-.wrapper {
-    width: 400px;
-    height: 300px;
-    border:6px solid black;
+
+.section{
+    width: 2240px;
+    height: 467px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    background: rgba(227, 241, 233, 1);
+    /* border: 1px solid red; */
+}
+.section p{
+    color: #274C5B;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 220px;
+}
+.section img{
+    width: 110.153px;
+    height: 90.898px;
+    /* transform: rotate(-115.825deg); */
+    margin-top: 220px;
+    flex-shrink: 0;
+    /* border: 1px solid red; */
+}
+.section2{
+    width: 1920px;
+    height: 1533px;
+    flex-shrink: 0;
+    /* background: #F9F8F8; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 160px;
+}
+.one{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 396px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 39px;
+}
+.two{
+    /* border: 1px solid red; */
+}.three{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 398px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 33px;
+}
+.dairy{
+    display: flex;
+    width: 396px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+}
+.three .dairy{
+    display: flex;
+    width: 396px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+.name-product{
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.description{
+    width: 396px;
+    color: #525C60;
+    text-align: right;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165.4%; /* 29.772px */
+}
+.three .description{
+    width: 396px;
+    color: #525C60;
+    text-align: left;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165.4%; /* 29.772px */
+}
+.future{
+    display: flex;
+    width: 482px;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    /* border: 1px solid red; */
+    margin-left: 130px;
+}
+.what{
+    color: #7EB693;
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.better{
+    color: #274C5B;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.explore{
+    border-radius: 16px;
+    border: 2px solid #335B6B;
+    background: #F9F8F8;
+    gap: 10px;
+    display: flex;
+    padding: 28px 36px 29px 36px;
+    justify-content: center;
+    align-items: center;
+    width: 220px ;
+    height: 80px;
+    margin-left: 230px;
+}
+.section3{
+    margin-left: 160px;
+}
+.everyday{
+    display: flex;
+    width: 671px;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 170px;
+}
+.clean{
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.everyday .description{
+    width: 671px;
+    text-align: center;
+}
+
+
+.section8{
+    display: flex;
+    margin-left: 530px;
+    margin-top: 150px;
+}
+.contact{
+    display: flex;
+    width: 285px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 32px;
+    /* border: 1px solid red; */
+}
+.contact2{
+    display: flex;
+    width: 543px;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+    /* border: 1px solid red; */
+    margin-left: 92px;
+}
+.contact3{
+    display: flex;
+    width: 285px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    margin-left: 92px;
+
+}
+.one{
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 13px;
+}
+.thet{
+    color: #525C60;
+    text-align: right;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 165%; /* 29.7px */
+}
+.phones{
+    color: #525C60;
+    text-align: right;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 165%; /* 29.7px */
+}
+.mmm{
+    display: flex;
+}
+.mmm2{
+    width: 543px;
+    color: #525C60;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165.4%; /* 29.772px */
+}
+.thet3{
+    width: 285px;
+    color: #525C60;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 272.9%; /* 49.122px */
+}
+
+.line{
+    width: 1px;
+    height: 400px;
+    border-right: 1px solid gray;
+    margin-left: 30px;
 }
